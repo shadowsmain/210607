@@ -29,4 +29,4 @@ class group:
 
     def __init__(self, name):
         self.name = name
-        self.student = Student
+        self.student = group
