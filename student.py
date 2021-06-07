@@ -14,19 +14,21 @@
 #    def start(self):
 #        print("Студент 33 группы")
 
-class Students:
+class Student:
 
-    def __init__(self, name, date_brithday, address):
+    def __init__(self, name, birth_date, address):
         self.name = name
-        self.date_brithday = date_brithday
+        self.birth_date = birth_date
         self.address = address
 
-    def display_info(self):
-        print('Студентs: ', self.name)
 
 
-class group:
+class Group:
 
     def __init__(self, name):
         self.name = name
-        self.student = group
+        self.students = []
+
+
+student_1 = Student('Владислав', '18.04.2002', 'г.Курган, центр')
+group_1 = ('ИСиП-33')
